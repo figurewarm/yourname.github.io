@@ -10,9 +10,11 @@
               var p = document.getElementById("passward");
               if (a.value != "123") {
                 console.log("账号错误");
+                a.value = '';
               }
               if (p.value != "123") {
                 console.log("密码错误");
+                p.value = '';
               }
             }
             </script>
